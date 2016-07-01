@@ -1,0 +1,22 @@
+<section class="photos-main">
+	<h1>${title}</h1>
+	% for l in items:
+	<div class="photo-left">
+		% if ('thumbnail' in l):
+			<a href="${l['contents']}">
+				<img src="${l['thumbnail']}">
+			</a>
+			<div>
+				${l['menu']}
+			</div>
+		% else:
+			<a href="${l['contents']}">
+				<img src="thumbnail_generic.png">
+			</a>
+			<div>
+				${l['menu']}
+			</div>
+		% endif
+	</div>
+	% endfor
+</section>

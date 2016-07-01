@@ -1,0 +1,63 @@
+author: Eindhovense Studenten Taekwondo Vereniging Ilyeo
+
+outputdir: result
+inputdir: input
+
+alsocopy:
+  - ".*\\.jpg"
+  - ".*\\.png"
+  - ".*\\.js"
+  - ".*\\.css"
+  - ".*\\.pdf"
+
+menu:
+  -
+    menu: Home
+    title: Home
+    contents: index_en.html
+    keywords: "Ilyeo, taekwondo, tae kwon do"
+    description: "Give your semester a kick-start and join our training! A varied and fun way to get (back) in shape."
+  -
+    menu: Taekwondo
+    title: Taekwondo
+    contents: taekwondo_en.html
+    keywords: "Taekwondo,tae kwon do"
+    description: "Taekwondo is for everyone. At Ilyeo you can train at your own pace."
+  -
+    menu: Association
+    title: The association
+    contents: vereniging_en.html
+    keywords: "ilyeo,taekwondo association,eindhoven,student sport centre"
+    description: About Ilyeo
+  -
+    menu: Trainers
+    title: Trainers
+    contents: trainers_en.html
+    keywords: "ilyeo,trainers,eindhoven,studenten,student sport centre"
+    description: The trainers of E.S.T.V. Ilyeo
+    noshow: true
+  -
+    menu: Previous boards
+    title: Previous boards of Ilyeo
+    contents: besturen_en.html
+    keywords: "ilyeo,boards,eindhoven,studenten,student sport centre"
+    description: The previous boards of E.S.T.V. Ilyeo
+    noshow: true
+  -
+    menu: Trainings
+    title: Trainings
+    contents: trainingen_en.html
+    keywords: "trainings,ilyeo,sports centre,schedule"
+    description: We train on monday and thursday evening
+  -
+    menu: Exams
+    title: Exams
+    contents: examens_en.html
+    keywords: "belts,exams,belt exams,ilyeo,taekwondo"
+    description: Belt exams of Ilyeo
+  -
+    menu: Exam requirements
+    title: Exam requirements
+    contents: exameneisen_en.html
+    keywords: "belt,exam,belt exam,ilyeo,taekwondo"
+    description: Exam requirements
