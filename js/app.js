@@ -15,6 +15,16 @@ var pageList = {
     'exameneisen':  {dutch:'Exameneisen',
                         eng:'Exam Requirements'},
 };
+
+/**
+ * Remembers current language in local cache and keeps it at that until it is switched.
+ */
+if(!localStorage.getItem('lang')){
+    localStorage.setItem('lang', 'NL');
+}
+var LANG = localStorage.getItem('lang');
+
+
 /**
  * Initializes angular module Ilyeo and configures instantly the mapping from website URLs to page files
  * For instance; makes sure that when you browse to /besturen, pages/besturen.html gets displayed
@@ -22,13 +32,15 @@ var pageList = {
 var ILYEO = angular.module('Ilyeo', ['ui.router']).config(function($urlRouterProvider, $stateProvider){
     //If invalid page is selected from URL, redirect to index page
     $urlRouterProvider.otherwise('/');
+
     /**
      * Returns a valid path for a page name, depending whether or not the user wants the site to be English
      * @param n the page name
      * @returns {string} Respective page URL in English/Dutch
      */
     var retUrl = function(n){
-        return 'pages/'+n+'.html'; //TODO: FIX THIS TO DYNAMICALLY RETURN EN OR NL
+        var suffix = (LANG==="NL")?'':'_en';
+        return 'pages/'+n+suffix+'.html';
     }
 
     //initializes index state routing
@@ -61,7 +73,10 @@ var ILYEO = angular.module('Ilyeo', ['ui.router']).config(function($urlRouterPro
 
 ILYEO.run(function($rootScope){
     $rootScope.pageList = pageList;
-    $rootScope.ENG = false;
+    $rootScope.ENG = (LANG !== "NL");
+    $.get('js/data/impressions.php', function(data){
+         $rootScope.imgList = JSON.parse(data);
+    });
 })
 /**
  * Initializes controller for index page;
@@ -72,6 +87,21 @@ ILYEO.controller('indexCtrl', function($scope, $rootScope){
      */
     $scope.pages = $rootScope.pageList;
     $scope.ENG = $rootScope.ENG;
+    function changeImgs(){
+        $scope.img1 = 'ilyeosite-1.jpg';
+        $scope.img2 = 'ilyeosite-2.jpg';
+        if($rootScope.imgList){
+            $scope.img1 = $rootScope.imgList[(Math.random()*$rootScope.imgList.length | 0)];
+            $scope.img2 = $rootScope.imgList[(Math.random()*$rootScope.imgList.length | 0)];
+        }
+
+    }
+    changeImgs();
+    $scope.$on('$stateChangeStart', changeImgs);
+    $scope.changeLang = function(ln){
+        localStorage.setItem('lang', ln);
+        location.reload();
+    }
 });
 //see js/data/beltexams.js
 ILYEO.controller('examCtrl', function($scope, $rootScope) {
