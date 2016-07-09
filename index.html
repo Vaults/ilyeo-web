@@ -20,7 +20,7 @@
 <body ng-controller="indexCtrl">
 
 <div id="main">
-    <a href="index.html">
+    <a href="#">
         <img src="images/css/logo.png" id="logo" width="365" height="250">
     </a>
 
@@ -40,7 +40,13 @@
             <img src="images/impression/{{img2}}" width="310px">
         </div>
         <!-- Content of selected page -->
-        <div class="right" ui-view></div>
+        <div class="right">
+            <div style="float:right;margin-top: -40px;margin-right: -12px;">
+                <a href ng-click="changeLang('EN')"><img src="images/flags/en_flag.png" width="20px"></a>
+                <a href ng-click="changeLang('NL')"><img src="images/flags/nl_flag.jpg" width="20px"></a>
+            </div>
+            <div ui-view></div>
+        </div>
     </section>
     <section class="footer">
         <ul>

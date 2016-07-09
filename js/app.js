@@ -20,7 +20,7 @@ var pageList = {
  * Remembers current language in local cache and keeps it at that until it is switched.
  */
 if(!localStorage.getItem('lang')){
-    localStorage.setItem('lang', 'NL');
+    localStorage.setItem('lang', 'EN');
 }
 var LANG = localStorage.getItem('lang');
 
