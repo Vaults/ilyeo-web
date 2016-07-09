@@ -2,7 +2,7 @@
 <div ng-repeat="d in data">
     <h2>{{d.prefixDutch}} bestuur</h2>
     <b>{{d.durationDutch}}</b>
-    <p>V.l.n.r <i ng-repeat="p in d.lefttoright">{{p.name}} ({{p.role}}), </i></p>
+    <p>V.l.n.r <i ng-repeat="p in d.lefttoright">{{p.name}} ({{roles[p.role].dutch}}), </i></p>
     <img src="{{d.pic}}">
 </div>
 
