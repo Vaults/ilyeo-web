@@ -17,7 +17,7 @@ var BOARDS =[
             {name:'Richard van den Hoven',role:'secr'},
             {name:'Hoi Ying Chan',role:'treas'},
             {name:'Merijn Donders',role:'chair'} ],
-        pic: 'images/besturen/1ebestuur.jpg'
+        img: 'images/besturen/1ebestuur.jpg'
 
     },
     {
@@ -29,7 +29,7 @@ var BOARDS =[
             {name:'Ruud Hawinkels',role:'secr'},
             {name:'Marieke Tjebbes',role:'chair'},
             {name:'Dorothee Wasserberg',role:'treas'} ],
-        pic: 'images/besturen/2ebestuur.jpg'
+        img: 'images/besturen/2ebestuur.jpg'
 
     },
     {
@@ -41,7 +41,7 @@ var BOARDS =[
             {name:'Martijn de Groot',role:'chair'},
             {name:'Hanneke Vinke',role:'treas'},
             {name:'Gertjan Groen',role:'secr'} ],
-        pic: 'images/besturen/3ebestuur.jpg'
+        img: 'images/besturen/3ebestuur.jpg'
 
     },
     {
@@ -53,7 +53,7 @@ var BOARDS =[
             {name:'Bas Ploeger',role:'treas'},
             {name:'Martijn de Groot',role:'chair'},
             {name:'Gertjan Groen',role:'secr'} ],
-        pic: 'images/besturen/4ebestuur.jpg'
+        img: 'images/besturen/4ebestuur.jpg'
 
     },
     {
@@ -65,7 +65,6 @@ var BOARDS =[
             {name:'Mark van Domburg',role:'treas'},
             {name:'Tobi Maas',role:'chair'},
             {name:'Milan Marell',role:'secr'} ],
-        pic: 'images/besturen/5ebestuur.jpg'
 
     },
     {
@@ -77,7 +76,6 @@ var BOARDS =[
             {name:'Xixi Lu',role:'treas'},
             {name:'Alexander Janssen',role:'chair'},
             {name:'Mark Graus',role:'secr'} ],
-        pic: 'images/besturen/6ebestuur.jpg'
 
     },
     {
@@ -89,7 +87,6 @@ var BOARDS =[
             {name:'Laurens van der Bel',role:'chair'},
             {name:'Shahriyar Nasrmalek',role:'treas'},
             {name:'Jesse Joosten',role:'secr'} ],
-        pic: 'images/besturen/7ebestuur.jpg'
 
     },
     {
@@ -101,7 +98,7 @@ var BOARDS =[
             {name:'Roy Kraak',role:'chair'},
             {name:'Ruizhou Xie',role:'treas'},
             {name:'Wanda Bloemers',role:'secr'} ],
-        pic: 'images/besturen/8ebestuur.jpg'
+        img: 'images/besturen/8ebestuur.jpg'
 
     },
     {
@@ -114,7 +111,7 @@ var BOARDS =[
             {name:'Sjors Turlings',role:'treas'},
             {name:'Melanie Ahn',role:'chair'},
             {name:'Arno van Lumig',role:'secr'}],
-        pic: 'images/besturen/9ebestuur.jpg'
+        img: 'images/besturen/9ebestuur.jpg'
 
     }
 ];
