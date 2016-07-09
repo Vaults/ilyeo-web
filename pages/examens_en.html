@@ -4,7 +4,7 @@
 </p>
 <p><a ui-sref="exameneisen">click here for information about the exams</a></p>
 <h2>Exam results</h2>
-<div ng-repeat="d in data">
+<div ng-repeat="d in data" style="margin-right: -10px; text-align: center">
     <h3>{{d.engDate}}</h3>
     <table class="exam-results">
         <tr>
@@ -21,7 +21,7 @@
     </table>
 
     <div ng-if="d.img">
-        <img border="0" src="{{d.img}}" align="center" width="500px"><br>
+        <img border="0" src="{{d.img}}" align="center" width="100%"><br>
         Left to Right: {{(d.lefttoright.length > 1)?'':d.lefttoright[0]}}
         <div ng-if="d.lefttoright.length > 1">
             <div ng-repeat="r in d.lefttoright track by $index">

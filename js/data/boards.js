@@ -11,8 +11,8 @@ var BOARDS =[
     {
         prefixDutch: "Eerste",
         prefixEng: "First",
-        durationDutch: "april 2004 - november 2005",
-        durationEng: this.durationDutch,
+        durationDutch: "April 2004 - November 2005",
+        durationEng: "April 2004 - November 2005",
         lefttoright:[
             {name:'Richard van den Hoven',role:'secr'},
             {name:'Hoi Ying Chan',role:'treas'},
@@ -23,8 +23,8 @@ var BOARDS =[
     {
         prefixDutch: "Tweede",
         prefixEng: "Second",
-        durationDutch: "november 2005 - september 2006",
-        durationEng: this.durationDutch,
+        durationDutch: "November 2005 - September 2006",
+        durationEng: "November 2005 - September 2006",
         lefttoright:[
             {name:'Ruud Hawinkels',role:'secr'},
             {name:'Marieke Tjebbes',role:'chair'},
@@ -35,8 +35,8 @@ var BOARDS =[
     {
         prefixDutch: "Derde",
         prefixEng: "Third",
-        durationDutch: "september 2006 - oktober 2007",
-        durationEng: "september 2006 - october 2007",
+        durationDutch: "September 2006 - Oktober 2007",
+        durationEng: "September 2006 - October 2007",
         lefttoright:[
             {name:'Martijn de Groot',role:'chair'},
             {name:'Hanneke Vinke',role:'treas'},
@@ -47,8 +47,8 @@ var BOARDS =[
     {
         prefixDutch: "Vierde",
         prefixEng: "Fourth",
-        durationDutch: "oktober 2007 - oktober 2008",
-        durationEng: "october 2007 - october 2008",
+        durationDutch: "Oktober 2007 - Oktober 2008",
+        durationEng: "October 2007 - October 2008",
         lefttoright:[
             {name:'Bas Ploeger',role:'treas'},
             {name:'Martijn de Groot',role:'chair'},
@@ -59,8 +59,8 @@ var BOARDS =[
     {
         prefixDutch: "Vijfde",
         prefixEng: "Fifth",
-        durationDutch: "oktober 2008 - september 2009",
-        durationEng: "october 2008 - september 2009",
+        durationDutch: "Oktober 2008 - September 2009",
+        durationEng: "October 2008 - September 2009",
         lefttoright:[
             {name:'Mark van Domburg',role:'treas'},
             {name:'Tobi Maas',role:'chair'},
@@ -70,8 +70,8 @@ var BOARDS =[
     {
         prefixDutch: "Zesde",
         prefixEng: "Sixth",
-        durationDutch: "september 2009 - november 2010",
-        durationEng: this.durationDutch,
+        durationDutch: "September 2009 - November 2010",
+        durationEng: "September 2009 - November 2010",
         lefttoright:[
             {name:'Xixi Lu',role:'treas'},
             {name:'Alexander Janssen',role:'chair'},
@@ -81,8 +81,8 @@ var BOARDS =[
     {
         prefixDutch: "Zevende",
         prefixEng: "Seventh",
-        durationDutch: "november 2010 - mei 2013",
-        durationEng: "november 2010 - may 2013",
+        durationDutch: "November 2010 - Mei 2013",
+        durationEng: "November 2010 - May 2013",
         lefttoright:[
             {name:'Laurens van der Bel',role:'chair'},
             {name:'Shahriyar Nasrmalek',role:'treas'},
@@ -92,8 +92,8 @@ var BOARDS =[
     {
         prefixDutch: "Achtste",
         prefixEng: "Eighth",
-        durationDutch: "mei 2013 - september 2014",
-        durationEng: "may 2013 - september 2014",
+        durationDutch: "Mei 2013 - September 2014",
+        durationEng: "May 2013 - September 2014",
         lefttoright:[
             {name:'Roy Kraak',role:'chair'},
             {name:'Ruizhou Xie',role:'treas'},
@@ -104,8 +104,8 @@ var BOARDS =[
     {
         prefixDutch: "Negende",
         prefixEng: "Ninth",
-        durationDutch: "september 2014 - september 2015",
-        durationEng: this.durationDutch,
+        durationDutch: "September 2014 - September 2015",
+        durationEng: "September 2014 - September 2015",
         lefttoright:[
             {name:'Fleur Petit',role:'act'},
             {name:'Sjors Turlings',role:'treas'},

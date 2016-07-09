@@ -4,15 +4,17 @@
 
 <head>
     <!-- Search engine metadata -->
-    <meta name="description" content="Geef je nieuwe semester een KICK start en kom met ons meetrainen! Een afwisselende en gezellige manier om (weer) fit te worden. ">
+    <meta name="description"
+          content="Geef je nieuwe semester een KICK start en kom met ons meetrainen! Een afwisselende en gezellige manier om (weer) fit te worden. ">
     <meta name="keywords" content="Ilyeo, taekwondo, tae kwon do, SSC, Eindhoven">
     <meta name="author" content="Eindhovense Studenten Taekwondo Vereniging Ilyeo">
 
     <!-- Site configuration and style imports -->
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="slick.css">
-    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <title>Home</title>
 
 </head>
@@ -33,27 +35,32 @@
             <li ng-repeat="(key, value) in pages"><a ui-sref="{{key}}">{{ENG?value.eng:value.dutch}}</a></li>
         </ul>
     </nav>
-    <section class="main">
+    <section class="main" class="row">
         <!-- two random images -->
         <div class="left">
             <img src="images/impression/{{img1}}" width="310px">
             <img src="images/impression/{{img2}}" width="310px">
-        </div>
-        <!-- Content of selected page -->
+            <div style="    height: 25px;   float: left;    margin-left: 20px; margin-top: 5px">
+                <a href="mailto:bestuur@ilyeo.nl"><img src="images/css/mail.png" alt="Email us"
+                                                       width="25" style="border:0px; margin-top: 0px"/></a>
+                <a href="https://www.facebook.com/pages/Taekwondo-Ilyeo/152247771640325"><img
+                        src="images/css/facebook.png" alt="Facebook" width="25" style="border:0px; margin-top: 0px"></a>
+                <a href="http://www.essf.nl"><img src="images/css/essf.png" alt="ESSF" width="25"
+                                                  style="border:0px; margin-top: 0px"/></a>
+            </div>
+        </div><!-- Content of selected page -->
         <div class="right">
-            <div style="float:right;margin-top: -40px;margin-right: -12px;">
-                <a href ng-click="changeLang('EN')"><img src="images/flags/en_flag.png" width="20px"></a>
-                <a href ng-click="changeLang('NL')"><img src="images/flags/nl_flag.jpg" width="20px"></a>
+            <div style="float:right; text-align: right;margin-top: -40px;margin-right: -12px;">
+                <div>
+                    <a href ng-click="changeLang('EN')"><img src="images/flags/en_flag.png" width="20px"></a>
+                    <a href ng-click="changeLang('NL')"><img src="images/flags/nl_flag.jpg" width="20px"></a>
+                </div>
             </div>
             <div ui-view></div>
         </div>
     </section>
     <section class="footer">
-        <ul>
-            <li><a href="mailto:bestuur@ilyeo.nl"><img src="images/css/mail.png" alt="Email us" width="50" height="50"/></a></li>
-            <li><a href="https://www.facebook.com/pages/Taekwondo-Ilyeo/152247771640330"><img src="images/css/facebook.png" alt="Facebook" width="50" height="50"></a></li>
-            <li><a href="http://www.essf.nl"><img src="images/css/essf.jpg" alt="ESSF" width="50" height="50"/></a></li>
-        </ul>
+
     </section>
 
 </div>
@@ -64,6 +71,7 @@
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/angular.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/angular-ui-router.min.js"></script>
 <!-- initalizes page scripts -->
 <script src="js/data/beltexams.js"></script>

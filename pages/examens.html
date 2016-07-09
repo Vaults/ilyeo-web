@@ -4,9 +4,9 @@
 </p>
 <p><a ui-sref="exameneisen">klik hier voor de exameneisen</a></p>
 <h2>Examenuitslagen</h2>
-<div ng-repeat="d in data">
+<div ng-repeat="d in data" style="margin-right: -10px; text-align: center">
     <h3>{{d.dutchDate}}</h3>
-    <table class="exam-results">
+    <table class="exam-results" style="margin-left:30px">
         <tr>
             <th class="candidate">Kandidaat</th>
             <th class="from belt">Van</th>
@@ -21,7 +21,7 @@
     </table>
 
     <div ng-if="d.img">
-        <img border="0" src="{{d.img}}" align="center" width="500px"><br>
+        <img border="0" src="{{d.img}}" align="center" width="100%"><br>
         vlnr: {{(d.lefttoright.length > 1)?'':d.lefttoright[0]}}
         <div ng-if="d.lefttoright.length > 1">
             <div ng-repeat="r in d.lefttoright track by $index">

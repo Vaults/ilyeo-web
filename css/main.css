@@ -7,6 +7,9 @@ body {
 a{
   text-decoration: none;
 }
+td{
+  text-align: left;
+}
 #main {
   width: 960px;
   margin: 0 auto;
@@ -210,7 +213,9 @@ section.main {
   margin: 0;
   top: -80px;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-image: url('../images/css/bg.png');
+  background-repeat: repeat-y;
+  background-size: contain;}
   section.main .left {
     margin: 30.26042px 0;
     padding: 20px 0;
@@ -220,7 +225,7 @@ section.main {
     -webkit-transform: skewY(10deg);
     -moz-transform: skewY(10deg); }
     section.main .left img {
-      margin-bottom: 1em;
+      margin-top: 1em;
       border: 1px solid #777; }
     section.main .left :last-child {
       margin-bottom: 0; }

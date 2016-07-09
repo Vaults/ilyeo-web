@@ -1,8 +1,8 @@
 <h1>Oud-besturen</h1>
-<div ng-repeat="d in data">
+<div ng-repeat="d in data" style="text-align:center">
     <h2>{{d.prefixDutch}} bestuur</h2>
-    <b>{{d.durationDutch}}</b>
-    <p>V.l.n.r <i ng-repeat="p in d.lefttoright">{{p.name}} ({{roles[p.role].dutch}}), </i></p>
+    <i>{{d.durationDutch}}</i>
+    <p><div ng-if="d.img">V.l.n.r</div> <i ng-repeat="p in d.lefttoright">{{p.name}} ({{roles[p.role].dutch}}), </i></p>
     <div ng-if="d.img">
       <img src="{{d.img}}" width="589">
     </div>
