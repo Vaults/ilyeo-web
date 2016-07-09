@@ -1,4 +1,11 @@
 <h1>Oud-besturen</h1>
+<div ng-repeat="d in data">
+    <h2>{{d.prefixDutch}} bestuur</h2>
+    <b>{{d.durationDutch}}</b>
+    <p>V.l.n.r <i ng-repeat="p in d.lefttoright">{{p.name}} ({{p.role}}), </i></p>
+    <img src="{{d.pic}}">
+</div>
+
 <h2>Eerste bestuur</h2>
 <b>(april 2004 - november 2005)</b>
 <p>V.l.n.r. Richard van den Hoven (secretaris), Hoi Ying Chan (penningmeester) en Merijn Donders (voorzitter)</p>
