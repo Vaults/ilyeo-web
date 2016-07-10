@@ -1,8 +1,11 @@
 <h1>Oud-besturen</h1>
+<!-- This div repeats every board instance in the data/boards.js array. We can refer to a board object as 'd',
+and access the relevant data as we would do in JavaScript using curly bracket notation -->
 <div ng-repeat="d in data" style="text-align:center">
     <h2>{{d.prefixDutch}} bestuur</h2>
     <i>{{d.durationDutch}}</i>
-    <p><div ng-if="d.img">V.l.n.r</div> <i ng-repeat="p in d.lefttoright"><b>{{p.name}}</b> ({{roles[p.role].dutch}}), </i></p>
+    <p>
+    <div ng-if="d.img">V.l.n.r</div> <i ng-repeat="p in d.lefttoright"><b>{{p.name}}</b> ({{roles[p.role].dutch}}), </i></p>
     <div ng-if="d.img">
       <img src="{{d.img}}" width="589">
     </div>

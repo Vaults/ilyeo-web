@@ -2,8 +2,13 @@
 <p style="font-style: italic">
     License to kick!
 </p>
-<p><a ui-sref="exameneisen">klik hier voor de exameneisen</a></p>
+<p>Klik <a ui-sref="exameneisen">hier</a> voor de exameneisen</p>
 <h2>Examenuitslagen</h2>
+<!-- This ng-repeat repeats over each object in the belt data array. So in the div below, we can reference to d
+as an entire belt exam including the date, image and belts attained
+
+See js/data/beltexams.js for the data structure.
+-->
 <div ng-repeat="d in data" style="margin-right: -10px; text-align: center">
     <h3>{{d.dutchDate}}</h3>
     <table class="exam-results" style="margin-left:30px">
@@ -22,6 +27,7 @@
 
     <div ng-if="d.img">
         <img border="0" src="{{d.img}}" align="center" width="100%"><br>
+        <!-- If there is one row, just display the names. Otherwise, loop over and count the rows -->
         vlnr: {{(d.lefttoright.length > 1)?'':d.lefttoright[0]}}
         <div ng-if="d.lefttoright.length > 1">
             <div ng-repeat="r in d.lefttoright track by $index">
