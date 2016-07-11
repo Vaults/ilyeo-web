@@ -40,22 +40,17 @@
         <div class="left">
             <img src="images/impression/{{img1}}" width="310px">
             <img src="images/impression/{{img2}}" width="310px">
-            <div style="    height: 25px;   float: left;    margin-left: 20px; margin-top: 5px">
-                <a href="mailto:bestuur@ilyeo.nl"><img src="images/css/mail.png" alt="Email us"
-                                                       width="25" style="border:0px; margin-top: 0px"/></a>
-                <a href="https://www.facebook.com/pages/Taekwondo-Ilyeo/152247771640325"><img
-                        src="images/css/facebook.png" alt="Facebook" width="25" style="border:0px; margin-top: 0px"></a>
-                <a href="http://www.essf.nl"><img src="images/css/essf.png" alt="ESSF" width="25"
-                                                  style="border:0px; margin-top: 0px"/></a>
+            <div class="ref">
+                <a href="mailto:bestuur@ilyeo.nl"><img src="images/css/mail.png" alt="Email us"/></a>
+                <a href="https://www.facebook.com/pages/Taekwondo-Ilyeo/152247771640325"><img src="images/css/facebook.png" alt="Facebook"></a>
+                <a href="http://www.essf.nl"><img src="images/css/essf.png" alt="ESSF" /></a>
+                <a href="https://github.com/Vaults/ilyeo-web"><img src="images/css/github.png" alt="ESSF" /></a>
             </div>
         </div><!-- Content of selected page -->
         <div class="right">
-            <div style="float:right; text-align: right;margin-top: -40px;margin-right: -12px;">
-                <div>
-                    <a href ng-click="changeLang('EN')"><img src="images/flags/en_flag.png" width="20px"></a>
-                    <a href ng-click="changeLang('NL')"><img src="images/flags/nl_flag.jpg" width="20px"></a>
-                </div>
-            </div>
+            <div class="langs">
+                <a href ng-click="changeLang('EN')"><img src="images/flags/en_flag.png"></a>
+                <a href ng-click="changeLang('NL')"><img src="images/flags/nl_flag.jpg"></a></div>
             <div ui-view></div>
         </div>
     </section>

@@ -231,6 +231,15 @@ section.main {
       border: 1px solid #777; }
     section.main .left :last-child {
       margin-bottom: 0; }
+    section.main .left .ref{
+      height: 25px;   float: left;    margin-left: 20px; margin-top: 5px;
+    }
+      section.main .left .ref img {
+        border: 0px;
+        margin-top: 0px;
+        width: 25px;
+      }
+
   section.main .right {
     margin: 0;
     padding: 0;
@@ -248,6 +257,12 @@ section.main {
       margin-top: 0;
       font-size: 2.3em;
       text-align: right; }
+    section.main .right .langs{
+      float:right; text-align: right;margin-top: -40px;margin-right: -12px;
+    }
+      section.main .right .langs img{
+        width: 20px;
+      }
 
 section.footer {
   text-align: right; }
