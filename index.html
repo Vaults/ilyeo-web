@@ -16,12 +16,14 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <title>Home</title>
-
+    
+    <!-- Load angular before other scripts to ensure ng-cloak is functional -->
+    <script src="js/angular.min.js"></script>
 </head>
 <!-- uses the indexCtrl controller as defined in app.js -->
 <body ng-controller="indexCtrl">
 
-<div id="main">
+<div id="main" ng-cloak>
     <a href="#">
         <img src="images/css/logo.png" id="logo" width="365" height="250">
     </a>
@@ -35,9 +37,9 @@
             <li ng-repeat="(key, value) in pages"><a ui-sref="{{key}}">{{ENG?value.eng:value.dutch}}</a></li>
         </ul>
     </nav>
-    <section class="main" class="row">
+    <section class="main">
         <!-- two random images -->
-        <div class="left">
+        <div class="left" ng-cloak>
             <img src="images/impression/{{img1}}" width="310px">
             <img src="images/impression/{{img2}}" width="310px">
             <div class="ref">
@@ -65,7 +67,6 @@
 <script src="js/jquery-2.0.3.min.js"></script>
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/slick.min.js"></script>
-<script src="js/angular.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/angular-ui-router.min.js"></script>
 <!-- initalizes page scripts -->
