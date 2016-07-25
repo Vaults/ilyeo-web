@@ -6,6 +6,12 @@ body {
   font-size: 16px !important
 }
 
+.noscriptmsg {
+  text-align: center;
+  top: 50%;
+	transform: translateY(1000%);
+}
+
 a{
   text-decoration: none;
 }
