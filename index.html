@@ -135,40 +135,48 @@ ga('send', 'pageview');
     }
     
     function check_browser() {
-        var browser = get_browser();
-        switch (browser.name) {
-            case 'Firefox':
-                if (parseInt(browser.version) < 40) 
-                  unsupported(browser);
-                break;
-            
-            case 'Chrome':
-                if (parseInt(browser.version) < 40) 
-                  unsupported(browser);
-                break;
-                
-            case 'Edge':
-                if (parseInt(browser.version) < 25) 
-                  unsupported(browser);
-                break;
-                
-            case 'IE':
-                unsupported(browser);
-                break;
-                
-            case 'Opera':
-                if (parseInt(browser.version) < 15) 
-                  unsupported(browser);
-                break;
-                
-            case 'Safari':
-                if (parseInt(browser.version) < 7) 
-                  unsupported(browser);
-                break;
-                
-            default:
-                unsupported(browser);
-                break;
+        try {
+            if (localStorage.getItem("browserChecked") === true) {
+                var browser = get_browser();
+                switch (browser.name) {
+                    case 'Firefox':
+                        if (parseInt(browser.version) < 40) 
+                          unsupported(browser);
+                        break;
+                    
+                    case 'Chrome':
+                        if (parseInt(browser.version) < 40) 
+                          unsupported(browser);
+                        break;
+                        
+                    case 'Edge':
+                        if (parseInt(browser.version) < 25) 
+                          unsupported(browser);
+                        break;
+                        
+                    case 'IE':
+                        unsupported(browser);
+                        break;
+                        
+                    case 'Opera':
+                        if (parseInt(browser.version) < 15) 
+                          unsupported(browser);
+                        break;
+                        
+                    case 'Safari':
+                        if (parseInt(browser.version) < 7) 
+                          unsupported(browser);
+                        break;
+                        
+                    default:
+                        unsupported(browser);
+                        break;
+                }
+                localStorage.setItem('browserChecked', 'true');
+            }
+        } catch (err) {
+            var browser = get_browser();
+            unsupported(browser);
         }
     }
     
