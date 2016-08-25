@@ -136,7 +136,7 @@ ga('send', 'pageview');
     
     function check_browser() {
         try {
-            if (localStorage.getItem("browserChecked") === true) {
+            if (localStorage.getItem('browserChecked') === 'false' || localStorage.getItem('browserChecked' == null) {
                 var browser = get_browser();
                 switch (browser.name) {
                     case 'Firefox':
