@@ -49,7 +49,7 @@
     <!-- All buttons leading to different pages, as set in indexCtrl in app.js -->
     <nav class="main">
         <ul>
-            <li ng-repeat="(key, value) in pages"><a ui-sref="{{key}}">{{ENG?value.eng:value.dutch}}</a></li>
+            <li ng-repeat="(key, value) in pages"><a ui-sref="{{key}}" class="{{(state.current.name===key)?'selected':''}}" >{{ENG?value.eng:value.dutch}}</a></li>
         </ul>
     </nav>
     <section class="main">

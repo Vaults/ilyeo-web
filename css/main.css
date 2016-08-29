@@ -78,6 +78,12 @@ nav.main {
         -moz-transform: skewY(10deg) rotate(-10deg); }
         nav.main ul li a:hover {
           color: #555; }
+      a.selected {
+        color: #660000 !important;
+      }
+      a.selected:hover {
+        color: #996666 !important;
+      }
 
 section.album-main {
   border: 1px solid #333333;

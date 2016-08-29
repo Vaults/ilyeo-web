@@ -89,7 +89,7 @@ ILYEO.run(function($rootScope){
 /**
  * Initializes controller for index page;
  */
-ILYEO.controller('indexCtrl', function($scope, $rootScope){
+ILYEO.controller('indexCtrl', function($scope, $rootScope, $state){
     /**
      * Sets the scope pages to the pages dictionary
      */
@@ -122,6 +122,9 @@ ILYEO.controller('indexCtrl', function($scope, $rootScope){
         localStorage.setItem('lang', ln);
         location.reload();
     }
+    
+    $scope.state = $state;
+    $scope.breadcrumbs = ['ayy', 'lmao'];
 });
 //see js/data/beltexams.js, sets scope variables to include the data in that file
 ILYEO.controller('examCtrl', function($scope, $rootScope) {
