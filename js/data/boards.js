@@ -113,5 +113,18 @@ var BOARDS =[
             {name:'Arno van Lumig',role:'secr'}],
         img: 'images/besturen/9ebestuur.jpg'
 
+    },
+    {
+        prefixDutch: "Tiende",
+        prefixEng: "Tenth",
+        durationDutch: "September 2015 - September 2016",
+        durationEng: "September 2015 - September 2016",
+        lefttoright:[
+            {name:'Le Xuan Tung',role:'secr'},
+            {name:'Nimke Verhees',role:'chair'},
+            {name:'Tom Nijhof',role:'treas'},
+            {name:'Weiming Yao',role:'act'}],
+        img: 'images/besturen/10ebestuur.jpg'
+
     }
 ];
