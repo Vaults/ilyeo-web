@@ -17,6 +17,38 @@ var BELTS = {
 
 var BELT_EXAMS = [
     {
+        dutchDate: 'Nationale Dan Examen December 2016',
+        engDate: 'National Dan Exam December 2016',
+        belts:[
+            {name:'Jie Chen', from:'rb', to:'black'},
+            {name:'Tung Le Xuan', from:'rb', to:'black'},
+        ],
+        img: 'images/exams/geslaagden2016_12_17.png',
+        lefttoright: ['Tung, Jie']
+    },
+    {
+        dutchDate: '3 December 2016',
+        engDate: 'December 3rd, 2016',
+        belts:[
+            {name:'Kelly Morales', from:'r', to:'rb'},
+            {name:'Rui Zhou Xie', from:'br', to:'r'},
+            {name:'Weiming Yao', from:'b', to:'r'},
+            {name:'Sjors van den Elzen', from:'g', to:'gb'},
+            {name:'Stiliyan Stoyanov', from:'yg', to:'gb'},
+            {name:'Ricardo Elout', from:'yg', to:'gb'},
+            {name:'Lisa Koolen', from:'y', to:'g'},
+            {name:'Robin van Renselaar', from:'y', to:'g'},
+            {name:'Lucy Xiao', from:'y', to:'g'},
+            {name:'Sebastiaan van Gaans', from:'w', to:'y'},
+            {name:'Jip Reijnders', from:'w', to:'y'},
+            {name:'Leonie Schnieders', from:'w', to:'y'},
+            {name:'Qique Wang', from:'w', to:'y'},
+        ],
+        img: 'images/exams/geslaagden2016_12_03.jpg',
+        lefttoright: ['Merijn, Robin, Qique, Ricardo, Sebastiaan, Jip, Stiliyan, Weiming, Sjors, Leonie, Andreas',
+                      'Melanie, Kelly, Lucy, Lisa, Rui Zhou']
+    },
+    {
         dutchDate: '8 Mei 2016',
         engDate: 'May 8th, 2016',
         belts:[

@@ -280,7 +280,7 @@ section.footer {
       display: inline-block; }
 
 table.exam-results {
-  width: 100%; }
+  width: 100%; margin-bottom: 10px !important;}
   table.exam-results th {
     text-align: left; }
   table.exam-results th.belt {
