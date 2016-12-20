@@ -31,8 +31,8 @@ var BELT_EXAMS = [
         engDate: 'December 3rd, 2016',
         belts:[
             {name:'Kelly Morales', from:'r', to:'rb'},
-            {name:'Rui Zhou Xie', from:'br', to:'r'},
             {name:'Weiming Yao', from:'b', to:'r'},
+            {name:'Rui Zhou Xie', from:'br', to:'r'},
             {name:'Sjors van den Elzen', from:'g', to:'gb'},
             {name:'Stiliyan Stoyanov', from:'yg', to:'gb'},
             {name:'Ricardo Elout', from:'yg', to:'gb'},
