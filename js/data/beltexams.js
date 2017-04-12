@@ -43,6 +43,7 @@ var BELT_EXAMS = [
             {name:'Jip Reijnders', from:'w', to:'y'},
             {name:'Leonie Schnieders', from:'w', to:'y'},
             {name:'Qique Wang', from:'w', to:'y'},
+            {name:'Imen Mezzi', from:'w', to:'y'},
         ],
         img: 'images/exams/geslaagden2016_12_03.jpg',
         lefttoright: ['Merijn, Robin, Qique, Ricardo, Sebastiaan, Jip, Stiliyan, Weiming, Sjors, Leonie, Andreas',
