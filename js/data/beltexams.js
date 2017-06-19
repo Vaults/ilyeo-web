@@ -17,11 +17,38 @@ var BELTS = {
 
 var BELT_EXAMS = [
     {
+        dutchDate: 'Nationale Dan Examen Juni 2017',
+        engDate: 'National Dan Exam June 2017',
+        belts:[
+            {name:'Kelly Morales', from:'rb', to:'black'},
+        ],
+        img: 'images/exams/geslaagden2017_06_17.png',
+        lefttoright: ['Kelly']
+    },
+    {
+        dutchDate: '28 Mei 2017',
+        engDate: 'May 28th 2017',
+        belts:[
+            {name:'Steven Ge', from:'gb', to:'br'},
+            {name:'Haiyu Wang', from:'y', to:'g'},
+            {name:'Leonie Schnieders', from:'y', to:'g'},
+            {name:'Rens Verhees', from:'y', to:'g'},
+            {name:'Ivo Bernts', from:'y', to:'g'},
+            {name:'Arash Roomizadeh', from:'w', to:'y'},
+            {name:'Arjan Derks', from:'w', to:'y'},
+            {name:'Simone van den Broek', from:'w', to:'y'},
+            {name:'Maria Cristina Pop', from:'w', to:'y'},
+            {name:'Thomas Boot', from:'w', to:'y'},
+        ],
+        img: 'images/exams/geslaagden2017_05_28.jpg',
+        lefttoright: ['Leonie, Ivo, Arjan, Sjors, Ricardo, Sjors','Tung, Steven, Haiyu, Rens, Arash, Simone, Maria, Thomas, Merijn, Jie']
+    },
+    {
         dutchDate: 'Nationale Dan Examen December 2016',
         engDate: 'National Dan Exam December 2016',
         belts:[
             {name:'Jie Chen', from:'rb', to:'black'},
-            {name:'Tung Le Xuan', from:'rb', to:'black'},
+            {name:'Le Xuan Tung', from:'rb', to:'black'},
         ],
         img: 'images/exams/geslaagden2016_12_17.png',
         lefttoright: ['Tung, Jie']
