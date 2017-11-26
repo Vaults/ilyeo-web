@@ -126,5 +126,18 @@ var BOARDS =[
             {name:'Weiming Yao',role:'act'}],
         img: 'images/besturen/10ebestuur.jpg'
 
+    },
+	{
+        prefixDutch: "Elfde",
+        prefixEng: "Eleventh",
+        durationDutch: "September 2016 - September 2017",
+        durationEng: "September 2016 - September 2017",
+        lefttoright:[
+            {name:'Mels van Broekhoven',role:'act'},
+            {name:'Lucy Xiao',role:'secr'},
+            {name:'Marcel Visser',role:'chair'},
+            {name:'Sjors van den Elzen',role:'treas'}],
+        img: 'images/besturen/11ebestuur.jpg'
+
     }
 ];
