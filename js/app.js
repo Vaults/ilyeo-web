@@ -186,7 +186,7 @@ ILYEO.controller('indexCtrl', function($scope, $rootScope){
      */
     function changeImgs(){
         $scope.img1 = {path:  'training-1.jpg'};
-        $scope.img2 = {path:  'impressie-1.jpg'};
+        $scope.img2 = {path:  'impressie-2.jpg'};
         if($rootScope.imgList){
           var rand1 = (Math.random()*$rootScope.imgList.length | 0)
           var rand2 = (Math.random()*$rootScope.imgList.length | 0)
@@ -201,9 +201,9 @@ ILYEO.controller('indexCtrl', function($scope, $rootScope){
         var alt2str = typeof altTexts[$scope.img2.path] != 'undefined' ? 
           $scope.img2.path : 'default';
         $scope.img1.alt = 
-          $scope.ENG ? altTexts[$alt1str].eng : altTexts[alt1str].dutch;
+          $scope.ENG ? altTexts[alt1str].eng : altTexts[alt1str].dutch;
         $scope.img2.alt = 
-          $scope.ENG ? altTexts[$alt1str].eng : altTexts[alt2str].dutch
+          $scope.ENG ? altTexts[alt1str].eng : altTexts[alt2str].dutch
     }
 
     /**
