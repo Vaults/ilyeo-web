@@ -37,7 +37,7 @@ var BELT_EXAMS = [
             {name:'Bram Klaassen', from:'w', to:'y'},
             {name:'Fleur Petit', from:'w', to:'y'},
         ],
-        img: 'images/exams/geslaagden2018_06_02.jpg',
+        img: 'images/exams/geslaagden2018_06_02.png',
         lefttoright: ['Merijn, Michel, Annabel, Leonie, Robin, Ab, Melanie',
 						'Bram, Fabienne, Fleur']
     },
