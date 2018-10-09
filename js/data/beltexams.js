@@ -16,6 +16,41 @@ var BELTS = {
 };
 
 var BELT_EXAMS = [
+	{
+        dutchDate: '16 Juni 2018',
+        engDate: 'June 16th 2018',
+        belts:[
+            {name:'Weiming Yao', from:'rb', to:'black'},
+        ],
+        img: 'images/exams/geslaagden2018_06_16.png',
+        lefttoright: ['Fleur, Weiming']
+    },
+	{
+        dutchDate: '2 Juni 2018',
+        engDate: 'June 2nd 2018',
+        belts:[
+            {name:'Leonie Schnieders', from:'g', to:'b'},
+            {name:'Robin van Renselaar', from:'g', to:'b'},
+            {name:'Fabienne Crans', from:'w', to:'y'},
+            {name:'Annabel van den Broek', from:'w', to:'y'},
+            {name:'Michel van Altena', from:'w', to:'y'},
+            {name:'Bram Klaassen', from:'w', to:'y'},
+            {name:'Fleur Petit', from:'w', to:'y'},
+        ],
+        img: 'images/exams/geslaagden2018_06_02.jpg',
+        lefttoright: ['Merijn, Michel, Annabel, Leonie, Robin, Ab, Melanie',
+						'Bram, Fabienne, Fleur']
+    },
+	{
+        dutchDate: '17 December 2017',
+        engDate: 'December 17th 2017',
+        belts:[
+            {name:'Mels van Broekhoven', from:'r', to:'rb'},
+            {name:'Weiming Yao', from:'r', to:'rb'},
+        ],
+        img: 'images/exams/geslaagden2017_12_17.png',
+        lefttoright: ['Roger, Melanie, Mels, Weiming, Ab, Merijn']
+    },
     {
         dutchDate: 'Nationale Dan Examen Juni 2017',
         engDate: 'National Dan Exam June 2017',

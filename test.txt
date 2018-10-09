@@ -1,0 +1,13 @@
+diff --git a/index.html b/index.html
+index 01521eb..9445d55 100644
+--- a/index.html
++++ b/index.html
+@@ -61,7 +61,7 @@
+                 <a href="mailto:bestuur@ilyeo.nl"><img src="images/css/mail.png" alt="Email us"/></a>
+                 <a href="https://www.facebook.com/pages/Taekwondo-Ilyeo/152247771640325"><img src="images/css/facebook.png" alt="Facebook"></a>
+                 <a href="http://www.essf.nl"><img src="images/css/essf.png" alt="ESSF" /></a>
+-                <a href="https://github.com/Vaults/ilyeo-web"><img src="images/css/github.png" alt="ESSF" /></a>
++                <a href="https://github.com/ESTVIlyeo/ilyeo-web"><img src="images/css/github.png" alt="Github" /></a>
+             </div>
+         </div><!-- Content of selected page -->
+         <div class="right">

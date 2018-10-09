@@ -139,5 +139,18 @@ var BOARDS =[
             {name:'Sjors van den Elzen',role:'treas'}],
         img: 'images/besturen/11ebestuur.jpg'
 
+    },
+	{
+        prefixDutch: "Twaalfde",
+        prefixEng: "Twelfth",
+        durationDutch: "September 2017 - September 2018",
+        durationEng: "September 2017 - September 2018",
+        lefttoright:[
+            {name:'Leonie Schnieders',role:'secr'},
+            {name:'Kelly Morales',role:'chair'},
+            {name:'Lisa Koolen',role:'treas'},
+            {name:'Simone van den Broek',role:'act'}],
+        img: 'images/besturen/12ebestuur.jpg'
+
     }
 ];
