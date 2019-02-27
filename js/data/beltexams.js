@@ -17,8 +17,17 @@ var BELTS = {
 
 var BELT_EXAMS = [
 	{
-        dutchDate: '16 Juni 2018',
-        engDate: 'June 16th 2018',
+        dutchDate: 'Nationale Dan Examen 3 November 2018',
+        engDate: 'National Dan Exam November 3th 2018',
+        belts:[
+            {name:'Mels van Broekhoven', from:'rb', to:'black'},
+        ],
+        img: 'images/exams/geslaagden2018_11_03.png',
+        lefttoright: ['Mels']
+    },
+	{
+        dutchDate: 'Nationale Dan Examen 16 Juni 2018',
+        engDate: 'National Dan Exam June 16th 2018',
         belts:[
             {name:'Weiming Yao', from:'rb', to:'black'},
         ],
