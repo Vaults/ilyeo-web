@@ -17,6 +17,21 @@ var BELTS = {
 
 var BELT_EXAMS = [
 	{
+        dutchDate: '30 Maart 2019',
+        engDate: 'March 30th 2019',
+        belts:[
+            {name:'Sebastiaan van Gaans', from:'y', to:'g'},
+            {name:'Dennis Hekkers', from:'y', to:'g'},
+            {name:'Bram Klaassen', from:'y', to:'g'},
+            {name:'Jasmijn de Vries', from:'w', to:'y'},
+            {name:'Jolijn Hesen', from:'w', to:'y'},
+            {name:'Ahn Ngo', from:'w', to:'y'},
+        ],
+        img: 'images/exams/geslaagden2019_03_30.png',
+        lefttoright: ['Tung, Merijn, Sjors, Sebastiaan, Dennis, Bram, Mels',
+						'Melanie, Jasmijn, Jolijn, Ahn, Leonie, Jie']
+    },
+	{
         dutchDate: 'Nationale Dan Examen 3 November 2018',
         engDate: 'National Dan Exam November 3th 2018',
         belts:[
