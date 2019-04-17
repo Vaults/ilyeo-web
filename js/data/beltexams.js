@@ -20,6 +20,7 @@ var BELT_EXAMS = [
         dutchDate: '30 Maart 2019',
         engDate: 'March 30th 2019',
         belts:[
+			{name:'Jip Reinders', from:'y', to:'g'},
             {name:'Sebastiaan van Gaans', from:'y', to:'g'},
             {name:'Dennis Hekkers', from:'y', to:'g'},
             {name:'Bram Klaassen', from:'y', to:'g'},
