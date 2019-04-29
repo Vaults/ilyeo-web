@@ -13,6 +13,7 @@ var BELTS = {
     'r':{dutch:'Rood', eng:'Red', c:'red'},
     'rb':{dutch:'Rood/Zwart', eng:'Red/Black', c:'red-black'},
     'black':{dutch:'Zwart', eng:'Black', c:'black'},
+    'dantwo':{dutch:'Tweede Dan', eng:'Second Dan', c:'dantwo'},
 };
 
 var BELT_EXAMS = [
@@ -46,6 +47,7 @@ var BELT_EXAMS = [
         engDate: 'National Dan Exam June 16th 2018',
         belts:[
             {name:'Weiming Yao', from:'rb', to:'black'},
+            {name:'Le Xuan Tung', from:'black', to:'dantwo'},
         ],
         img: 'images/exams/geslaagden2018_06_16.png',
         lefttoright: ['Fleur, Weiming']

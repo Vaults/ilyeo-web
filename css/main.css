@@ -316,6 +316,8 @@ table.exam-results {
     border-right: 5px solid black; }
   table.exam-results .black .belt {
     border-left: 10px solid black; }
+  table.exam-results .dantwo .belt {
+    border-left: 10px solid black; }
 
 hr.belt {
   color: black;
@@ -369,6 +371,11 @@ hr.belt.red-black {
   border-radius: 3px; }
 
 hr.belt.black {
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+  border-radius: 3px; }
+  
+hr.belt.dantwo {
   border-top: 7px solid black;
   border-bottom: 7px solid black;
   border-radius: 3px; }
