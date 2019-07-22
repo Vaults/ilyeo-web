@@ -1,9 +1,4 @@
 /* this is atan($skew) * $site-width */
-
-/*  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg); 
-  This is legacy slanted site code, which is no longer in use
-  */
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
@@ -40,15 +35,7 @@ td{
   padding: 0;
   margin: 0;
   height: 120px;
-/*  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg); */
-  overflow: hidden;
-  /* the image is higher than the header itself */ }
-  #header img {
-/*    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); */
-    position: relative;
-    top: -84px; }
+  overflow: hidden;}
 
 nav.main {
   display: block;
@@ -57,8 +44,6 @@ nav.main {
   top: -90px;
   padding: 0;
   margin: 0;
-/*  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg); */
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #333333; }
   nav.main ul {
@@ -77,16 +62,12 @@ nav.main {
         text-align: center;
         color: black;
         font-weight: bold;
-        text-decoration: none;
-        /*-webkit-transform: skewY(10deg) rotate(-10deg);
-        -moz-transform: skewY(10deg) rotate(-10deg); */}
+        text-decoration: none;}
         nav.main ul li a:hover {
           color: #555; }
 
 section.album-main {
   border: 1px solid #333333;
-  /*-webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg); */
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -97,8 +78,6 @@ section.album-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -106,16 +85,12 @@ section.album-main {
     text-align: right; }
   section.album-main div.grid {
     margin: 40.63542px 20px 0 20px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     overflow: hidden; }
     section.album-main div.grid img {
       border: 1px solid #777;
       margin: 7px; }
   section.album-main div.paging {
-    text-align: center;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); */}
+    text-align: center;}
     section.album-main div.paging a {
       text-decoration: none;
       font-size: 120%;
@@ -125,8 +100,6 @@ section.album-main {
 
 section.photo-main {
   border: 1px solid #333333;
-  /*-webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -137,8 +110,6 @@ section.photo-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -146,8 +117,6 @@ section.photo-main {
     text-align: right; }
   section.photo-main div {
     margin: 40.63542px 20px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     overflow: hidden;
     line-height: 600px; }
   section.photo-main a {
@@ -165,9 +134,7 @@ section.photo-main {
   section.photo-main a.next {
     float: left; }
   section.photo-main p.description {
-    text-align: center;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/ }
+    text-align: center;}
     section.photo-main p.description a {
       text-decoration: none;
       font-size: 120%;
@@ -177,8 +144,6 @@ section.photo-main {
 
 section.photos-main {
   border: 1px solid #333333;
-  /*-webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -189,8 +154,6 @@ section.photos-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -198,8 +161,6 @@ section.photos-main {
     text-align: right; }
   section.photos-main div.photo-right, section.photos-main div.photo-left {
     margin: 40.63542px 20px;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/
     overflow: hidden; }
     section.photos-main div.photo-right img, section.photos-main div.photo-left img {
       border: 1px solid #777; }
@@ -218,25 +179,18 @@ section.photos-main {
 
 section.main {
   border: 1px solid #333333;
-  /*-webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0;
   margin: 0;
   top: -80px;
   overflow: hidden;
-  /*background-image: url('../images/css/bg.png');
-  background-repeat: repeat-y;
-  background-size: contain;*/
   background-color: rgba(255, 255, 255, 0.8); }
   section.main .left {
     margin: 0px 0;
     padding: 8px 0;
     text-align: center;
     width: 349px;
-    float: left;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/ }
+    float: left;}
     section.main .left img {
       margin-top: 1em;
       border: 1px solid #777; }
@@ -256,9 +210,7 @@ section.main {
     padding: 0;
     padding-bottom: 51.01042px;
     width: 709px;
-    float: left;
-    /*-webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);*/ }
+    float: left;}
     section.main .right p {
       line-height: 1.4;
       text-align: justify; }
