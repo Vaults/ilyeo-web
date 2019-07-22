@@ -1,9 +1,14 @@
 /* this is atan($skew) * $site-width */
+
+/*  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg); 
+  This is legacy slanted site code, which is no longer in use
+  */
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 16px !important
+  font-size: 16px !important;
 }
 
 .noscriptmsg {
@@ -19,13 +24,13 @@ td{
   text-align: left;
 }
 #main {
-  width: 960px;
+  width: 1080px;
   margin: 0 auto;
   padding: 0 0 20px 0; }
 
 #logo {
   position: relative;
-  left: -90px;
+  left: 357px;
   top: 30px;
   z-index: 5; }
 
@@ -34,15 +39,14 @@ td{
   top: -100px;
   padding: 0;
   margin: 0;
-  height: 320px;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
+  height: 120px;
+/*  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg); */
   overflow: hidden;
-  /* the image is higher than the header itself */
-  border: 1px solid #333333; }
+  /* the image is higher than the header itself */ }
   #header img {
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+/*    -webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg); */
     position: relative;
     top: -84px; }
 
@@ -53,9 +57,9 @@ nav.main {
   top: -90px;
   padding: 0;
   margin: 0;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
-  background-color: rgba(255, 255, 255, 0.5);
+/*  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg); */
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #333333; }
   nav.main ul {
     display: table;
@@ -74,15 +78,15 @@ nav.main {
         color: black;
         font-weight: bold;
         text-decoration: none;
-        -webkit-transform: skewY(10deg) rotate(-10deg);
-        -moz-transform: skewY(10deg) rotate(-10deg); }
+        /*-webkit-transform: skewY(10deg) rotate(-10deg);
+        -moz-transform: skewY(10deg) rotate(-10deg); */}
         nav.main ul li a:hover {
           color: #555; }
 
 section.album-main {
   border: 1px solid #333333;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
+  /*-webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg); */
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -93,8 +97,8 @@ section.album-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -102,16 +106,16 @@ section.album-main {
     text-align: right; }
   section.album-main div.grid {
     margin: 40.63542px 20px 0 20px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     overflow: hidden; }
     section.album-main div.grid img {
       border: 1px solid #777;
       margin: 7px; }
   section.album-main div.paging {
     text-align: center;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); }
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg); */}
     section.album-main div.paging a {
       text-decoration: none;
       font-size: 120%;
@@ -121,8 +125,8 @@ section.album-main {
 
 section.photo-main {
   border: 1px solid #333333;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
+  /*-webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -133,8 +137,8 @@ section.photo-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -142,8 +146,8 @@ section.photo-main {
     text-align: right; }
   section.photo-main div {
     margin: 40.63542px 20px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     overflow: hidden;
     line-height: 600px; }
   section.photo-main a {
@@ -162,8 +166,8 @@ section.photo-main {
     float: left; }
   section.photo-main p.description {
     text-align: center;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); }
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/ }
     section.photo-main p.description a {
       text-decoration: none;
       font-size: 120%;
@@ -173,8 +177,8 @@ section.photo-main {
 
 section.photos-main {
   border: 1px solid #333333;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
+  /*-webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0 0 83px 0;
   margin: 0;
@@ -185,8 +189,8 @@ section.photos-main {
     margin: 0;
     padding: 0 20px;
     padding-bottom: 83px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     padding-top: 20px;
     padding-bottom: 25px;
     margin-top: 0;
@@ -194,8 +198,8 @@ section.photos-main {
     text-align: right; }
   section.photos-main div.photo-right, section.photos-main div.photo-left {
     margin: 40.63542px 20px;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg);
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/
     overflow: hidden; }
     section.photos-main div.photo-right img, section.photos-main div.photo-left img {
       border: 1px solid #777; }
@@ -214,24 +218,25 @@ section.photos-main {
 
 section.main {
   border: 1px solid #333333;
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
+  /*-webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);*/
   position: relative;
   padding: 0;
   margin: 0;
   top: -80px;
   overflow: hidden;
-  background-image: url('../images/css/bg.png');
+  /*background-image: url('../images/css/bg.png');
   background-repeat: repeat-y;
-  background-size: contain;}
+  background-size: contain;*/
+  background-color: rgba(255, 255, 255, 0.8); }
   section.main .left {
-    margin: 30.26042px 0;
-    padding: 20px 0;
+    margin: 0px 0;
+    padding: 8px 0;
     text-align: center;
     width: 349px;
     float: left;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); }
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/ }
     section.main .left img {
       margin-top: 1em;
       border: 1px solid #777; }
@@ -250,10 +255,10 @@ section.main {
     margin: 0;
     padding: 0;
     padding-bottom: 51.01042px;
-    width: 589px;
+    width: 709px;
     float: left;
-    -webkit-transform: skewY(10deg);
-    -moz-transform: skewY(10deg); }
+    /*-webkit-transform: skewY(10deg);
+    -moz-transform: skewY(10deg);*/ }
     section.main .right p {
       line-height: 1.4;
       text-align: justify; }
@@ -262,9 +267,9 @@ section.main {
       padding-bottom: 25px;
       margin-top: 0;
       font-size: 2.3em;
-      text-align: right; }
+      text-align: left; }
     section.main .right .langs{
-      float:right; text-align: right;margin-top: -40px;margin-right: -12px;
+      float:right; text-align: right;margin-top: 0px;margin-right: 0px;
     }
       section.main .right .langs img{
         width: 20px;

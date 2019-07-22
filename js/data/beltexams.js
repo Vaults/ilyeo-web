@@ -46,8 +46,8 @@ var BELT_EXAMS = [
         dutchDate: 'Nationale Dan Examen 16 Juni 2018',
         engDate: 'National Dan Exam June 16th 2018',
         belts:[
-            {name:'Weiming Yao', from:'rb', to:'black'},
             {name:'Le Xuan Tung', from:'black', to:'dantwo'},
+            {name:'Weiming Yao', from:'rb', to:'black'},	
         ],
         img: 'images/exams/geslaagden2018_06_16.png',
         lefttoright: ['Fleur, Weiming']
