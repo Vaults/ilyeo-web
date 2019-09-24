@@ -152,5 +152,18 @@ var BOARDS =[
             {name:'Simone van den Broek',role:'act'}],
         img: 'images/besturen/12ebestuur.jpg'
 
+    },
+	{
+        prefixDutch: "Dertiende",
+        prefixEng: "Thirteenth",
+        durationDutch: "September 2018 - September 2019",
+        durationEng: "September 2018 - September 2019",
+        lefttoright:[
+            {name:'Chaoyu Chen',role:'secr'},
+            {name:'Robin van Renselaar',role:'chair'},
+            {name:'Haiyu Wang',role:'treas'},
+            {name:'Annabel van den Broek',role:'act'}],
+        img: 'images/besturen/13ebestuur.jpg'
+
     }
 ];
