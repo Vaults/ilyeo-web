@@ -18,6 +18,24 @@ var BELTS = {
 
 var BELT_EXAMS = [
 	{
+        dutchDate: '7 Maart 2020',
+        engDate: 'March 7th 2020',
+        belts:[
+			{name:'Leonie Schnieders', from:'b', to:'br'},
+			{name:'Dennis Hekkers', from:'g', to:'gb'},
+			{name:'Jasmijn de Vries', from:'y', to:'g'},
+            {name:'Arjan Derks', from:'y', to:'g'},
+            {name:'Fabienne Crans', from:'y', to:'g'},
+            {name:'Sven Kuneman', from:'w', to:'y'},            
+            {name:'Joshua Jansen', from:'w', to:'y'},
+            {name:'Edo Buijs', from:'w', to:'y'},			
+            {name:'Tom Hermans', from:'w', to:'y'},
+            {name:'Ilina Zdravkova', from:'w', to:'y'},
+        ],
+        img: 'images/exams/geslaagden2020_03_07.jpg',
+        lefttoright: ['Tung, Melanie, Dennis, Sven, Jasmijn, Arjan, Fabienne, Joshua, Edo, Leonie, Tom, Ilina, Merijn, Mels']
+    },
+	{
         dutchDate: '30 Maart 2019',
         engDate: 'March 30th 2019',
         belts:[
