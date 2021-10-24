@@ -178,5 +178,17 @@ var BOARDS =[
             {name:'Dennis Hekkers',role:'treas'}],
         img: 'images/besturen/14ebestuur.jpg'
 
+    },
+    {
+        prefixDutch: "Vijftiende",
+        prefixEng: "Fifteenth",
+        durationDutch: "September 2020 - September 2021",
+        durationEng: "September 2020 - September 2021",
+        lefttoright:[
+            {name:'Tom Hermans',role:'secr'},
+            {name:'Florian Pans',role:'chair'},
+            {name:'Folkert Jansen',role:'treas'}],
+        img: 'images/besturen/15ebestuur.jpg'
+
     }
 ];
